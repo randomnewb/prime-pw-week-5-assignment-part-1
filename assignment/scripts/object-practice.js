@@ -13,7 +13,7 @@ const me = {
   firstName: 'Tu',
   lastName: 'Nguyen',
   hasSiblings: true,
-  shoecount: 15,
+  shoeCount: 15,
   favThreeFoods: ['pizza','ramen','hamburger']
 };
 console.log('A little about me:', me);
@@ -44,6 +44,9 @@ console.log('Another one of my favorite foods is',me.favThreeFoods[me.favThreeFo
   - Console.log your updated shoe count. 
 */
 
+console.log('I currently have',me.shoeCount,'shoes');
+me.shoeCount ++;
+console.log('I now have',me.shoeCount,'shoes');
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -51,3 +54,6 @@ console.log('Another one of my favorite foods is',me.favThreeFoods[me.favThreeFo
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = 'blue';
+console.log(me);
